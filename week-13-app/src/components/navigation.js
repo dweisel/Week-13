@@ -18,11 +18,5 @@ export default class Navigation extends React.Component {
     </ul>
   </div>
 </nav>
-        
-        
-        // <nav className="navbar navbar-light bg-light">
-        // <span className="navbar-brand" href="#">Week 13 Assignment</span>
-        // </nav>;
-
     } 
 }
