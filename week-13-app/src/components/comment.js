@@ -1,6 +1,7 @@
 import React from "react";
 import ReplyButton from './reply-button';
 import LikeButton from "./like-button";
+import LoginForm from "./login-form";
 
 let e = React.createElement;
 
@@ -12,7 +13,7 @@ export default class Comment extends React.Component {
                     Username and Time
                 </div>
                 <div className="card-body">
-                    Comment Content
+                    <LoginForm />
                 </div>
                 <div className="card-footer">
                     <LikeButton />
