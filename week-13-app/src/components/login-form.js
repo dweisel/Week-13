@@ -5,17 +5,17 @@ let e = React.createElement;
 export default class LoginForm extends React.Component {
     render() {
         return (
-            <div className="card w-75">
-                <form>
-                    <h3> Login </h3>
-                    {/* comment - can edit form fields */}
-  <label htmlFor="fname">First name:</label><br/>
+            <center>
+<div className="card w-75">
+<form> <h3> Login </h3>
+  <label htmlFor="fname">Username:</label><br/>
   <input type="text" id="fname" name="fname"/><br/>
-  <label htmlFor="lname">Last name:</label><br/>
+  <label htmlFor="lname">Password:</label><br/>
   <input type="text" id="lname" name="lname"/>
+  <button> submit </button>
 </form>
-            </div>
-        );
-        
-    }
+</div>
+</center>
+);        
+}
 }

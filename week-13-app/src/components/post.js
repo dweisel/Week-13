@@ -19,9 +19,6 @@ export default class Post extends React.Component{
                 <LikeButton />
                 <ReplyButton />
                 <Comment />
-                <Comment />
-                <Comment />
-
             </div>
         </div>
     );
